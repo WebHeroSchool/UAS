@@ -13,9 +13,6 @@ body {
  display: inline-block;
  border: dashed 1px red;
 }
-.logo{
-  margin-right: 63%;
-}
 .header {
  display: flex;
  justify-content: space-between;
