@@ -164,7 +164,13 @@ transition: opacity .5s;
 
 
 .main__title-text_highlight{
+
+    background: linear-gradient(
+        180deg,
+        rgba(255,255,255,1) 15%, #ECF3FF 15%);;
 }
+
+
 .points{
    width: 32px;
    height: 8px;
