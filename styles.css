@@ -22,7 +22,7 @@ body {
 .header {
  display: flex;
  justify-content: space-between;
-}
+ }
 
 
 .logo {
@@ -41,7 +41,8 @@ body {
 
 .menu__item {
  position: relative;
- margin-right: 26px;
+ margin-bottom:1px; 
+ margin-right: 29px;
  font: 500 18px/21px robotomedium, arial, helvetica, sans-serif;
  color: #000;
  text-decoration: none;
@@ -127,3 +128,56 @@ opacity: 0.5;
     width: 100%;
 }
 
+
+.main__title{
+    margin: 0 0 38px 0;
+    font: bold 66px/86px pt_serif, arial, helvetica, sans-serif;
+}
+
+
+.main__subtitle{
+margin: 0 0 40px 0;
+font: 22px/26px robotoregular, arial, helvetica, sans-serif;
+}
+
+
+.main__button{
+    display: inline-block;
+font: 18px/21px robotomedium, arial, helvetica, sans-serif;
+color: #fff;
+background: #0056EC;
+padding: 18px 28px;
+text-decoration: none;
+border-radius: 4px;
+transition: opacity .5s;
+}
+
+
+.main__button:hover{
+    opacity: .5;
+}
+
+.main{
+    padding-top: 206px;
+    padding-right:66%;
+    padding-bottom : 150px;
+    background: url(img/mainlmg.svg);
+    background-repeat: no-repeat;
+    background-position: 760px 130px;   
+}
+
+
+.main__title-text_highlight{
+
+    background: linear-gradient(
+        180deg,
+        rgba(255,255,255,1) 15%, #ECF3FF 15%);;
+}
+
+
+.points{
+   width: 32px;
+   height: 8px;
+   padding:0 98% 115px 0;
+    background: bottom center no-repeat url(img/Group.svg);
+}
