@@ -28,7 +28,7 @@ body {
 .logo {
  position: relative;   
  padding: 40px 0;
- padding-left: 44px;
+ padding-left: 47px;
  font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
  }
 
@@ -42,7 +42,8 @@ body {
 .menu__item {
  position: relative;
  margin-bottom:1px; 
- margin-right: 29px;
+ margin-right: 27px;
+ padding-top: 7px;
  font: 500 18px/21px robotomedium, arial, helvetica, sans-serif;
  color: #000;
  text-decoration: none;
@@ -51,7 +52,7 @@ body {
 
 
 .menu__item:last-child {
- margin-right: 0;
+ margin-right: 9px;
 }
 
 
@@ -142,11 +143,11 @@ font: 22px/26px robotoregular, arial, helvetica, sans-serif;
 
 
 .main__button{
-    display: inline-block;
+display: inline-block;
 font: 18px/21px robotomedium, arial, helvetica, sans-serif;
 color: #fff;
 background: #0056EC;
-padding: 18px 28px;
+padding: 18px 25px;
 text-decoration: none;
 border-radius: 4px;
 transition: opacity .5s;
